@@ -1,0 +1,27 @@
+
+
+#STOOPID{
+	color:gold;
+	font-size: 48px;
+	background-color: blue;
+	height:250px;
+	width:250px;
+	border-radius: 125px;
+	position:relative;
+	left:40%;
+	top:200px;
+}
+
+#DUMMY{
+	background-color: rgba(45,45,45,.85);
+	font-size: 128px;
+	color:white;
+	height:400px;
+	width:500px;
+	position:fixed;
+	top:-50px;
+	left:250px;
+	z-index: 99;
+	padding-top: 200px;
+	padding-left:125px;
+}
