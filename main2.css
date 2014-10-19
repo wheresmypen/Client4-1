@@ -1,27 +1,41 @@
 
 
-#STOOPID{
-	color:gold;
+#stoopid{
+	color: gold;
 	font-size: 48px;
 	background-color: blue;
-	height:250px;
-	width:250px;
+	height: 250px;
+	width: 250px;
 	border-radius: 125px;
-	position:relative;
-	left:40%;
-	top:200px;
+	position: fixed;
+	left: 40%;
+	top: 200px;
 }
 
-#DUMMY{
+#lucky{
 	background-color: rgba(45,45,45,.85);
 	font-size: 128px;
-	color:white;
-	height:400px;
-	width:500px;
-	position:fixed;
-	top:-50px;
-	left:250px;
-	z-index: 99;
-	padding-top: 200px;
-	padding-left:125px;
+	color: white;
+	width: 100%;
+	top: 175px;
+	left: 0px;
+    height: 150px;
+    position: absolute;
+	padding-top: 150px;
+	padding-left: 125px;
+    z-index: 1;
+}
+
+#dummy{
+
+    padding: 100px;
+
+}
+
+#smarty{
+
+    position: absolute;
+    color: steelblue;
+    top: -100px;
+
 }

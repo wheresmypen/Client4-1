@@ -1,16 +1,22 @@
 $(document).ready(function(){
 
-$("#STOOPID").on("click",function(){
+$("#lucky").hide();
+
+$("#stoopid").on("click",function(){
+    console.log("HOWDY");
 	popUp();
 });
 
-var popUp = function(){
-	$("body").append("<p id='DUMMY'>OPEN</p>");
-	$("#DUMMY").append("<button type='button' id='SMARTY'>CLOSE</button>");
-	$("#SMARTY").on("click",function(){
-		$("#DUMMY").remove();
-	})
+$(document).on("click", "#smarty", function() {
+    $("#lucky").hide();
+    $("#dummy").remove();
+});
 
-};
+
+var popUp = function() {
+    $("#lucky").show();
+	$("body").append("<p id='dummy'>this content is OPEN</p>");
+	$("#lucky").append("<button type='button' id='smarty'>to CLOSE</button>");
+  };
 	
 });
